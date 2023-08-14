@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.component10-main-page {
+    width: 1512px;
+    height: 752px;
+    background-color: #000000;
+    color: #FFFFFF;
+    overflow: hidden;
+    font-family: "Poppins", sans-serif;
+}
+
+.component10-main-page h1 {
+    margin-top: 80px;
+    margin-left: 116px;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.component10-main-page p {
+    margin-top: 10px;
+    color: #E7E7E7;
+    font-family: "Inter", sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    opacity: 80%;
+    margin-left: 116px;
+}
+
+.component10-main-page .layouts {
+    margin-top: 54px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+    margin-left: 390px;
+}
+
+.component10-main-page .layouts .layout {
+    width: 543px;
+
+    padding: 56px 56px 16px 56px;
+    height: 351px;
+    gap: 40px;
+    background-color: #0267FF80;
+    border-radius: 40px;
+}
+
+.component10-main-page .layouts .layout p {
+    opacity: 60%;
+    width: 390px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.component10-main-page .layouts .layout h5 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #EBEBEB;
+}
+
+.component9-main-page .layouts .layout h6 {
+    font-size: 20px;
+    font-weight: 400;
+    opacity: 60%;
+    color: #FFFFFF;
+}

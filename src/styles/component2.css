@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.component2-main-container {
+    position: relative;
+    width: 1512px;
+    height: 776px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #000000;
+}
+
+.component2-main-container .left {
+    margin-left: 88px;
+    margin-top: 211px;
+    width: 567px;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+.component2-main-container .left .firstpara {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.component2-main-container .left .secondpara {
+    font-size: 17px;
+    font-weight: 400;
+    margin-top: 19px;
+    opacity: 60%;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content p {
+    font-size: 17.5px;
+    font-weight: 400;
+}
+
+.content h1 {
+    font-size: 36.75px;
+    font-weight: 800;
+}
+
+.component2-main-container .left button {
+    padding: 4px, 12px, 4px, 12px;
+    width: 115.05px;
+    height: 32px;
+    border: solid 1px #0267FF;
+    border-radius: 8px;
+    background: none;
+    color: #FFFFFF;
+}
+
+.component2-main-container .right {
+    background-repeat: no-repeat;
+    width: 893px;
+    height: 776px;
+    background-image: url('../images/mesh.png');
+}
+
+.component2-main-container .right .ellipse {
+    margin-top: 108px;
+    margin-left: 130px;
+    width: 210px;
+    height: 208px;
+    border-radius: 50%;
+    position: absolute;
+    box-shadow: 10px 26px 300px 100px #0267FF;
+}
+
+.component2-main-container .right .graph img {
+    border-radius: 63px;
+    border: 2px solid #0267FF;
+    width: 690px;
+    height: 597px;
+    position: absolute;
+    top: 83px;
+    right: 65px;
+}

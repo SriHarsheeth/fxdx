@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.component4-main-page {
+    width: 1512px;
+    height: 1196px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.component4-main-page h1 {
+    padding-top: 85px;
+    font-weight: 700;
+    font-size: 42px;
+    margin-left: 112px;
+}
+
+.component4-main-page p {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: -1;
+    margin-top: 18px;
+    margin-left: 112px;
+    width: 1329px;
+    color: #E7E7E7;
+    font-weight: 400;
+    font-size: 21px;
+    opacity: 80%;
+}
+
+.component4-main-page .card {
+    margin-top: 76px;
+    margin-left: 112px;
+    background-color: #000000;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 35px;
+}
+
+.cards {
+    text-align: center;
+    width: 392px;
+    height: 354px;
+    background-color: #1B1B2C;
+    border-radius: 71px;
+    padding: 43px, 28px, 43px, 28px;
+}
+
+.cards img {
+    margin-top: 65px;
+    width: 85px;
+    height: 85px;
+}
+
+.cards h2 {
+    color: #EBEBEB;
+    margin-top: 27px;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.cards span {
+    opacity: 60%;
+    width: 355px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 100;
+}

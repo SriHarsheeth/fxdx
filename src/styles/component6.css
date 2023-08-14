@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.component6-main-page {
+    width: 1512px;
+    height: 1070px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.component6-main-page .top {
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.component6-main-page .top p {
+    font-size: 42px;
+    font-weight: 700;
+    margin-top: 68px;
+    margin-left: 112px;
+}
+
+.component6-main-page .top h6 {
+    color: #8D8D8D;
+    width: 1271px;
+    font-size: 17px;
+    margin-top: 0px;
+    font-weight: 400;
+    margin-left: 120px;
+    text-align: center;
+}
+
+.component6-main-page .containers {
+    margin-left: 112px;
+    width: 1282px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.component6-main-page .container {
+    width: 333px;
+    height: 72px;
+    border-radius: 16px;
+    border: solid 1px #474747;
+    background-color: #222222;
+}
+
+.component6-main-page .container .bitcoin {
+    font-weight: 500;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.component6-main-page .container .bitcoin p {
+    font-size: 12px;
+}
+
+.component6-main-page .graph {
+    margin-top: 16px;
+    margin-left: 112px;
+}
+
+.component6-main-page button {
+    margin-top: 55px;
+    margin-left: 613px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #0267FF;
+    width: 286px;
+    height: 48px;
+    border-radius: 10px;
+    padding: 12px, 24px, 12px, 24px;
+    border: none;
+    font-weight: 700;
+}

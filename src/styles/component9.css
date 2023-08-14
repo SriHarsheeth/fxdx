@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.component9-main-page {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1512px;
+    height: 948px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: "Poppins", sans-serif;
+}
+
+.component9-main-page p {
+    padding-top: 61px;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.component9-main-page h6 {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+    width: 1284px;
+    color: #AAAAAA;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.component9-main-page button {
+    margin-top: 45px;
+    width: 186px;
+    height: 48px;
+    padding: 12px, 24px, 12px, 24px;
+    border-radius: 10px;
+    background-color: #0267FF;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.component9-main-page .users-container {
+    width: 1512px;
+    height: 465px;
+}
+
+.users-container .users-one {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+
+.users-container .user {
+    width: 265px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 40px;
+    background-color: #0267FF80;
+
+}
+
+.users-container .user img {
+    height: 75px;
+    width: 75px;
+    border-radius: 105px;
+}
+
+.users-container .user p {
+    margin-top: -45px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.users-container .users-two {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-left: 100px;
+    gap: 42px;
+}
+
+.users-container .users-three {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    gap: 42px;
+}

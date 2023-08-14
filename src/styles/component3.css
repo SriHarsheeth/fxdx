@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.component3-main-container {
+    width: 1512px;
+    height: 464px;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    color: #FFFFFF;
+}
+
+.component3-main-container .left .container {
+    width: 100%;
+    height: 350px;
+    border: solid 2px #0267FF;
+    border-radius: 36px;
+    margin-top: 40px;
+    margin-left: 0px;
+}
+
+table {
+    margin: 20px auto;
+    text-align: center;
+    font: 20px;
+    width: 100%;
+    border: 1px hidden;
+    border-collapse: collapse;
+}
+
+th {
+    padding: 35px 3px;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+td {
+    padding: 18px 5px;
+    font-size: 20.673px;
+    font-weight: 500;
+}
+
+td button {
+    border-radius: 62px;
+    background-color: #0267FF;
+    border: 1px solid #0267FF;
+    padding: 10px, 28px, 10px, 28px;
+    width: 80px;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-family: 400;
+}
+
+.component3-main-container .right {
+    width: 350px;
+    margin-top: 115px;
+}
+
+.component3-main-container .right h1 {
+    font-size: 37px;
+    font-weight: 700;
+}
+
+.component3-main-container .right p {
+    font-size: 17px;
+    font-weight: 400;
+    opacity: 70%;
+}
+
+.component3-main-container .right button {
+    width: 212px;
+    height: 54px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    padding: 15px, 40px, 15px, 40px;
+    background-color: #0267FF;
+    font-size: 14px;
+    font-weight: 600;
+}

@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.component5-main-page {
+    width: 1512px;
+    height: 816px;
+    background-color: #000000;
+    color: #FFFFFF;
+    overflow: hidden;
+}
+
+.component5-main-page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.component5-main-page .container .left {
+    width: 109px;
+}
+
+.shadow {
+    overflow: hidden;
+    transform: rotate(141.991deg);
+}
+
+.component5-main-page .ellipse {
+    margin-top: 188px;
+    margin-left: 160px;
+    width: 210px;
+    height: 208px;
+    border-radius: 50%;
+    box-shadow: 10px 26px 300px 100px #0267FF;
+}
+
+.main-box {
+    font-family: sans-serif;
+    margin-top: -290px;
+    margin-left: 111px;
+    border-radius: 21px;
+    border: 1px solid #474747;
+    background: #1B1B1B;
+    width: 323px;
+    height: 538px;
+    padding: 24px 24px 26px 24px;
+}
+
+.content {
+    margin-top: -5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    color: #83868E;
+    font-weight: 400;
+}
+
+.main-box hr {
+    border: solid 1px #313131;
+    height: 2px;
+    background-color: #313131;
+}
+
+.main-box .top {
+    margin-top: -15px;
+}
+
+.main-box .buy {
+    font-size: 16px;
+    color: #FFFFFF;
+    font-weight: 500;
+}
+
+.main-box .amount {
+    text-align: right;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
+
+.main-box .middlehr {
+    margin-top: -7px;
+}
+
+.main-box .total {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: -9px;
+    font-weight: 500;
+}
+
+.main-box .buybtc {
+    display: flex;
+    justify-content: center;
+    height: 39px;
+    width: 275px;
+    padding: 12px, 7px, 12px, 7px;
+    border-radius: 7px;
+    text-align: center;
+}
+
+.main-box .adv {
+    margin-top: -20px;
+    font-size: 12px;
+    color: #83868E;
+}
+
+.container2 {
+    z-index: -100;
+    backface-visibility: hidden;
+    background: #222;
+    width: 333px;
+    height: 435px;
+    border-radius: 21px;
+    border: 1px solid #313131;
+    padding: 24px 24px 16px 24px;
+    margin-top: -340px;
+    margin-left: 330px;
+}
+
+.container2 .open {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+
+.bitcoin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.but {
+    width: 285px;
+    height: 36px;
+    border-radius: 7px;
+    background-color: #292A2F;
+    display: flex;
+}
+
+button {
+    display: flex;
+    width: 147px;
+    border: none;
+    height: 35px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: #FFFFFF;
+    background-color: #0267FF;
+    padding: 10px, 17px;
+}
+
+.but p {
+    padding: 5px 55px;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 12px;
+    color: #83868E;
+    font-weight: 500;
+}
+
+.chamber {
+    margin-top: 16px;
+    border-radius: 7px;
+    background-color: #292A2F;
+    height: 53px;
+    width: 285px;
+    font: 12px;
+    padding: 0px 9px;
+    justify-content: space-between;
+    color: #83868E;
+}
+
+.innerchamber {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottom-potion {
+    margin-top: 16px;
+    border-radius: 5px;
+    width: 285px;
+    height: 32px;
+    padding: 5px 8px;
+    background-color: #292A2F;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.component5-main-page .right {
+    margin-top: 254px;
+    width: 613px;
+}
+
+.component5-main-page .right h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.component5-main-page .right p {
+    color: #898989;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.component5-main-page .right button {
+    background: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 12px 24px;
+    border: 1px solid #0267FF;
+    width: 148px;
+    height: 48px;
+}

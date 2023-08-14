@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.component12-main-page {
+    font-family: "Poppins", sans-serif;
+    width: 1512px;
+    height: 590px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.component12-main-page img {
+    margin-top: 58px;
+    margin-left: 112px;
+    width: 230px;
+    height: 70px;
+}
+
+.component12-main-page .main {
+    margin-top: 50px;
+    margin-left: 112px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.component12-main-page .main .first {
+    width: 450px;
+    opacity: 80%;
+    color: #E7E7E7;
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.component12-main-page .main h6 {
+    color: #0267FF;
+    font-size: 26px;
+    font-weight: 600;
+
+}
+
+.component12-main-page .main p {
+    color: #E7E7E7;
+    font-size: 21px;
+    font-weight: 400;
+    opacity: 78%;
+}
+
+.component12-main-page input {
+    width: 450px;
+    height: 65px;
+    margin-left: 112px;
+    border-radius: 20px;
+    padding: 20px 18px;
+    font-size: 21.943px;
+    font-weight: 400;
+    position: absolute;
+}
+
+.component12-main-page button {
+    position: relative;
+    width: 175px;
+    height: 52px;
+    border: none;
+    border-radius: 20px;
+    background-color: #0267FF;
+    color: #F1F1F1;
+    margin-left: 405px;
+    margin-top: 7px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.component12-main-page button img {
+    width: 11px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 1px;
+    height: 20px;
+}
+
+.component12-main-page .footer {
+    display: flex;
+}
+
+.component12-main-page .footer .footerright {
+    display: flex;
+    color: #F1F1F1;
+    font-size: 26px;
+    width: 750px;
+    font-weight: 600;
+    margin-left: 320px;
+}
+
+.component12-main-page .footer .footerright {
+    display: flex;
+}
+
+.component12-main-page .footer .footerright img {
+    width: 20px;
+    height: 20px;
+    margin-top: -2px;
+    margin-left: 16px;
+}
+
+.component12-main-page .footer .footerright h1 {
+    font-size: 26px;
+    font-weight: 400;
+}

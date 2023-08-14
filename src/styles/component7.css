@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.component7-main-page {
+    position: relative;
+    width: 1512px;
+    height: 752px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+}
+
+.component7-main-page .container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1085px;
+    height: 440px;
+    transform: translate(-50%, -50%);
+    background-image: url('../images/rectanglegra.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.component7-main-page .container .left {
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+
+.component7-main-page .container .left p:first-child {
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.component7-main-page .container .left p {
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: -3px;
+}
+
+.component7-main-page .container .left button {
+    width: 228px;
+    height: 70px;
+    border-radius: 10px;
+    border: none;
+    padding: 11px 80px;
+    font-size: 32px;
+    color: #0267FF;
+    font-weight: 700;
+    background-color: #FAFAFA;
+}
+
+.component7-main-page .container .right {
+    position: absolute;
+    left: 653px;
+}
+
+.component7-main-page .container .right .rec {
+    margin-left: 20px;
+    position: relative;
+}
+
+.component7-main-page .container .right .dollar {
+    position: relative;
+    margin-top: -510px;
+    margin-left: 60px;
+}
+
+.component7-main-page .container .right .ellipse {
+    position: relative;
+    margin-top: -366px;
+    margin-left: -61px;
+    border-left: 1px solid rgba(240, 240, 240, 0.5);
+    border-right: 1px solid rgba(240, 240, 240, 0.5);
+    border-bottom: 1px solid white;
+    height: 240px;
+    rotate: 61deg;
+    width: 680px;
+    border-radius: 50%;
+}

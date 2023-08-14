@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.header-main-container {
+    background-image: url('../images/TRADING\ SCREEN\ ROUND\ 2\ 1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1512px;
+    height: 982px;
+
+}
+
+nav {
+    padding-top: 88px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav img {
+    width: 168px;
+    height: 52px;
+}
+
+.nav-list ul {
+    margin-left: 106px;
+    display: flex;
+    width: 790px;
+    gap: 35px;
+    list-style: none;
+    align-items: center;
+}
+
+nav .nav-list ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+
+a .menu {
+    color: blue;
+}
+
+nav button {
+    font-size: 14px;
+    font-weight: 700;
+    width: 208px;
+    height: 50px;
+    border: solid 2px #0267FF;
+    border-radius: 25px;
+    color: #F1F1F1;
+    background: none;
+}
+
+.main-section {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-one p {
+    width: 1288px;
+    margin-top: 190px;
+    font-family: "Poppins", sans-serif;
+
+    font-size: 48px;
+    font-weight: 800;
+    color: #F1F1F1;
+}
+
+.section-two p {
+    width: 886px;
+    margin-top: 27px;
+    opacity: 80%;
+    font-size: 18px;
+    font-weight: 400;
+    color: #E7E7E7;
+    font-family: 'Genos', sans-serif;
+}
+
+.header-main-container .container .bottom {
+
+    width: 209px;
+    height: 68px;
+    border-radius: 10px;
+    padding: 17px, 50px, 17px, 50px;
+    margin-top: 56px;
+}
+
+.main-page-footer {
+    margin-top: 138px;
+    left: 90px;
+    width: 1354px;
+    height: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 58px;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.component11-main-page {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    width: 1512px;
+    height: 590px;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+.component11-main-page .left .left-container {
+    width: 640px;
+    height: 280px;
+    margin-top: 155px;
+    margin-left: 150px;
+}
+
+.component11-main-page .container .left .left-container h1 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
+.component11-main-page .container .left .left-container p {
+    font-size: 17px;
+    width: 545px;
+    margin-top: 22px;
+    font-weight: 400;
+    opacity: 60%;
+}
+
+.component11-main-page .container .left .left-container button {
+    margin-top: 23px;
+    width: 216px;
+    height: 56px;
+    padding: 7px 14px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background-color: #0267FF80;
+    border-radius: 10px;
+    border: 1px solid #FFFFFF;
+}
+
+.component11-main-page .container .right {
+    margin-top: 60px;
+    margin-left: 18px;
+}
